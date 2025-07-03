@@ -1,4 +1,3 @@
-//
 // Oh no, this is supposed to print "Hello world!" but it needs
 // your help.
 //
@@ -16,6 +15,6 @@
 //
 const std = @import("std");
 
-fn main() void {
+pub fn main() void {
     std.debug.print("Hello world!\n", .{});
 }
